@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+td,th {
+    border: 1px solid black;
+}
+.image-heading img {
+    max-width: 100px;
+    max-height: 200px;
+}
+.image-heading {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}

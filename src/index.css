@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.light-theme {
+  background-color: rgb(122, 174, 246);
+  color: black;
+}
+
+.dark-theme {
+  background-color: rgb(2, 33, 77);
+  color: white;
+}

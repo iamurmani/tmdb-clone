@@ -1,0 +1,36 @@
+ul, li {
+    list-style: none;
+}
+
+ul  {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+li:first-child {
+    font-size: larger;
+}
+
+
+.active {
+    color: rgb(255, 0, 0) !important;
+}
+
+a, a:active, a:hover, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgb(2, 33, 77);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
